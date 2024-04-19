@@ -25,6 +25,7 @@ public class AppTest
         try {
             new App();
             System.out.println("hello world");
+
         } catch (Exception e) {
             fail("Construction failed.");
         }
